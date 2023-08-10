@@ -1,46 +1,56 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>HTML Example</title>
-  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 추가한 스타일 */
+        .long-section {
+            height: 1000px; /* 원하는 높이 설정 */
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-  <section class="center">
-    <aside class="sidebar"></aside>
-    
-    <section class="contents">
-      <!-- page will be include here -->
-      <section id="page" class="page">
-        <section id="about">
-          <section class="frame">
-            <h2><b>HELLO</b>WORLD</h2>
-            
-            <div class="cat">
-              <div class="picture">
-                <img src="images/mew.png" alt="Mew">
-              </div>
-              <small>Mew</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/siesta.png" alt="Siesta">
-              </div>
-              <small>Siesta</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/tiger.png" alt="Tiger">
-              </div>
-              <small>Tiger</small>
-            </div>
-          </section>
-        </section>
-      </section>
+    <div class="background-image"></div> 
+    <header>
+        <h1>당곡고등학교 AI 도서 추천</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="ai_books.html">AI 책 추천 서비스</a></li>
+            <li><a href="teacher_recommendations.html">선생님의 추천 도서</a></li>
+            <li><a href="my_page.html">마이페이지</a></li>
+        </ul>
+    </nav>
+    <section class="scrollable-section">
+        <h2>"점프 투 파이썬"</h2>
+        <img src="image.jpg" alt="점프 투 파이썬 표지 이미지" style="width: 300px; height: auto;">
+        <p>최근 세 달동안 가장 학생들이 많이 읽은 책</p>
     </section>
-  </section>
+    
+    <!-- 추가한 내용 -->
+    <section class="long-section">
+        <h2>더 많은 내용이 추가되는 섹션</h2>
+        <p>여기에 내용을 추가하세요.</p>
+    </section>
+
+    <!-- 추가한 배경 이미지 -->
+    <div class="background-image-2"></div>
+
+    <section>
+        <h2>Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Graphic Design</li>
+            <li>SEO</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 당곡고등학교 도서 추천 웹사이트 (prod. 이선영 강규민 오정환 이현지 김민준) </p>
+    </footer>
 </body>
 </html>
